@@ -24,7 +24,7 @@ const [menu,setMenu]=useState('drink');
 
                         <div id='myid1'>
                             <div id='dash' className='menu item1' style={{backgroundColor:'white'}}>
-                                <h1 style={{color:'#099'}}> <FontAwesomeIcon icon={faCoffee} size='2x' className='icon-move'/><b>Wave Cafe</b></h1>
+                                <h1 style={{color:'#099'}}> <FontAwesomeIcon icon={faCoffee} size='2x' className='icon-move'/><b>shyjan Cafe</b></h1>
                             </div>
                             {
                             menu=='drink'?<div onClick={()=>setMenu('drink')} className='menu' style={{ height: "126px",backgroundColor:'#099',color:'white' }}>
